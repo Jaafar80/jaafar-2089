@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('Cellular_Generations') }}">Cellular Generations</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+			<div class="container">
+				<h1>Contact Information</h1>
+				<p>If you have any questions or would like to learn more about cellular systems, please contact us through the following channels:</p>
+				<ul>
+					<li>Email: info@cellularsystemslearning.com</li>
+					<li>Phone: +963 999-555-666</li>
+				</ul>
+				<footer>
+					<p>&copy; 2023 Cellular Systems Learning. All rights reserved.</p>
+				</footer>
+			</div>
+        </section>
+    </main>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cellular Systems Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('Cellular_Generations') }}">Cellular Generations</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1 class="heading">Welcome to Cellular Systems Learning</h1>
+        <p>Embark on a fascinating journey to explore the evolution of cellular systems across generations.</p>
+        <p>Discover how cellular technology has transformed the way we communicate and connect with each other.</p>
+        <p>From the early analog systems to the latest 5G networks, dive deep into the technological advancements and concepts that power modern cellular systems.</p>
+        <p>Learn about the key features, benefits, and limitations of each cellular generation, and gain insights into the future of mobile communication.</p>
+        <a href="{{ url_for('Cellular_Generations') }}" class="btn btn-primary">Get Started</a>
+    </div>
+
+
+</body>
+</html>
